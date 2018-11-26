@@ -14,7 +14,7 @@ namespace CleanCodeDemo
     {
       
       IProductService productService = new ProductManager(new IsBankServiceAdapter());
-      productService.Sell(new Product { ProductId = 1, ProductName = "Laptop", ProductPrice = 1000 }, new Customer(){ Id = 1, Name = "Kerem" });
+      productService.Sell(new Product { ProductId = 1, ProductName = "Laptop", ProductPrice = 1000 }, new Student(){ Id = 1, Name = "Kerem" });
       Console.ReadLine();
     }
   }

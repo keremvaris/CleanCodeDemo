@@ -43,21 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CentralBankService.cs" />
-    <Compile Include="FakeBankService.cs" />
-    <Compile Include="CurrencyRate.cs" />
-    <Compile Include="Customer.cs" />
-    <Compile Include="IBankService.cs" />
-    <Compile Include="IEntity.cs" />
-    <Compile Include="IPerson.cs" />
-    <Compile Include="IProductService.cs" />
-    <Compile Include="IsBankService.cs" />
-    <Compile Include="Officer.cs" />
-    <Compile Include="Product.cs" />
-    <Compile Include="ProductManager.cs" />
+    <Compile Include="BankServices\CentralBankService.cs" />
+    <Compile Include="BankServices\FakeBankService.cs" />
+    <Compile Include="Business\CurrencyRate.cs" />
+    <Compile Include="Entities\Customer.cs" />
+    <Compile Include="BankServices\IBankService.cs" />
+    <Compile Include="Interfaces\IEntity.cs" />
+    <Compile Include="Interfaces\IPerson.cs" />
+    <Compile Include="Interfaces\IProductService.cs" />
+    <Compile Include="BankServices\IsBankService.cs" />
+    <Compile Include="Entities\Officer.cs" />
+    <Compile Include="Entities\Product.cs" />
+    <Compile Include="Business\ProductManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
+    <Compile Include="Entities\Student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

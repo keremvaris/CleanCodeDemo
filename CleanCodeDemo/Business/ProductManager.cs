@@ -17,8 +17,8 @@ namespace CleanCodeDemo
       price = person.Price(product);
       var exchangePrice = _bankService.ConvertRate(new CurrencyRate { Currency = 1, Price = price });
       
-      Console.WriteLine("Müşteri Tipi İndirim Karşılığı:" + price);
-      Console.WriteLine("Döviz Karşılığı:" + exchangePrice);
+      Console.WriteLine("Müşteri Tipi İndirim Karşılığı:" + price.ToString("#.##"));
+      Console.WriteLine("Döviz Karşılığı:" + exchangePrice.ToString("#.##"));
     }
   }
 }
