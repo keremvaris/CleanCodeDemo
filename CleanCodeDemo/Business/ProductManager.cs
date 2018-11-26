@@ -13,8 +13,7 @@ namespace CleanCodeDemo
 
     public void Sell(Product product, IPerson person)
     {
-      var price = product.ProductPrice;
-      price = person.Price(product);
+      var price = person.Price(product);
       var exchangePrice = _bankService.ConvertRate(new CurrencyRate { Currency = 1, Price = price });
       
       Console.WriteLine("Müşteri Tipi İndirim Karşılığı:" + price.ToString("#.##"));
