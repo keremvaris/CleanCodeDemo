@@ -1,0 +1,7 @@
+C:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\bin\Debug\CleanCodeDemo.exe.config
+C:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\bin\Debug\CleanCodeDemo.exe
+C:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\bin\Debug\CleanCodeDemo.pdb
+C:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\obj\Debug\CleanCodeDemo.csprojAssemblyReference.cache
+C:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\obj\Debug\CleanCodeDemo.csproj.CoreCompileInputs.cache
+C:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\obj\Debug\CleanCodeDemo.exe
+C:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\obj\Debug\CleanCodeDemo.pdb
