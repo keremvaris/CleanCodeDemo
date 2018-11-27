@@ -1,0 +1,16 @@
+c
+ZC:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\BankServices\CentralBankService.csutf-8`
+WC:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\BankServices\FakeBankService.csutf-8Y
+PC:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\Business\CurrencyRate.csutf-8U
+LC:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\Entities\Customer.csutf-8]
+TC:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\BankServices\IBankService.csutf-8V
+MC:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\Interfaces\IEntity.csutf-8V
+MC:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\Interfaces\IPerson.csutf-8^
+UC:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\Interfaces\IProductService.csutf-8^
+UC:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\BankServices\IsBankService.csutf-8T
+KC:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\Entities\Officer.csutf-8T
+KC:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\Entities\Product.csutf-8[
+RC:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\Business\ProductManager.csutf-8K
+BC:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\Program.csutf-8[
+RC:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\Properties\AssemblyInfo.csutf-8T
+KC:\Users\kerem\source\repos\CleanCodeDemo\CleanCodeDemo\Entities\Student.csutf-8

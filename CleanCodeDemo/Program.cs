@@ -4,6 +4,10 @@ namespace CleanCodeDemo
 {
   class Program
   {
+    protected Program()
+    {
+      
+    }
     static void Main(string[] args)
     {
       IProductService productService = new ProductManager(new IsBankServiceAdapter());
