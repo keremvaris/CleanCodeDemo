@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="BankServices\CentralBankService.cs" />
     <Compile Include="BankServices\FakeBankService.cs" />
-    <Compile Include="Business\CurrencyRate.cs" />
+    <Compile Include="Entities\CurrencyRate.cs" />
     <Compile Include="Entities\Customer.cs" />
     <Compile Include="BankServices\IBankService.cs" />
     <Compile Include="Interfaces\IEntity.cs" />
