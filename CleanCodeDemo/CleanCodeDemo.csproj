@@ -45,9 +45,13 @@
   <ItemGroup>
     <Compile Include="BankServices\CentralBankService.cs" />
     <Compile Include="BankServices\FakeBankService.cs" />
+    <Compile Include="Handlers\CustomerCampaignHandler.cs" />
+    <Compile Include="Handlers\OfficerCampaignHandler.cs" />
+    <Compile Include="Handlers\StudentCampaignHandler.cs" />
+    <Compile Include="Interfaces\IPersonCampaignHandler.cs" />
     <Compile Include="Entities\CurrencyRate.cs" />
     <Compile Include="Entities\Customer.cs" />
-    <Compile Include="BankServices\IBankService.cs" />
+    <Compile Include="Interfaces\IBankService.cs" />
     <Compile Include="Interfaces\IEntity.cs" />
     <Compile Include="Interfaces\IPerson.cs" />
     <Compile Include="Interfaces\IProductService.cs" />

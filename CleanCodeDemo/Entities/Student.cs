@@ -2,14 +2,15 @@
 
 namespace CleanCodeDemo
 {
-  public class Student : IEntity, IPerson
-  {
-    public int Id { get; set; }
-    public string Name { get; set; }
-    public decimal Price(Product product)
+    public class Student : IEntity, IPerson
     {
-      var result = product.ProductPrice * (decimal)0.90;
-      return result;
+        public Student()
+        {
+            CampaignHandler = new StudentCampaignHandler();
+        }
+        public int Id { get; set; }
+        public string Name { get; set; }
+
+        public IPersonCampaignHandler CampaignHandler { get; set; }
     }
-  }
 }
