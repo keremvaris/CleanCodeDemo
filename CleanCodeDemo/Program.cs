@@ -6,7 +6,6 @@ namespace CleanCodeDemo
   {
     protected Program()
     {
-      
     }
     static void Main(string[] args)
     {
