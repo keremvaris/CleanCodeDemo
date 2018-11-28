@@ -1,4 +1,5 @@
 ﻿using System;
+using CleanCodeDemo.BankServices;
 using CleanCodeDemo.Entities;
 using CleanCodeDemo.Interfaces;
 
@@ -18,8 +19,34 @@ namespace CleanCodeDemo.Business
             var price = person.CampaignHandler.Calculate(product);
             var exchangePrice = _bankService.ConvertRate(new CurrencyRate { Currency = 1, Price = price });
 
-            Console.WriteLine("Müşteri Tipi İndirim Karşılığı:" + price.ToString("#.##"));
-            Console.WriteLine("Döviz Karşılığı:" + exchangePrice.ToString("#.##"));
+            Console.WriteLine(person.Name +" İsimli Müşterimiz için indirim Karşılığı:" + price.ToString("#.##"));
+            Console.WriteLine("Ürünün Döviz Karşılığı:" + exchangePrice.ToString("#.##"));
+          Console.WriteLine("#####################################################");
         }
-    }
+      public static void CustomerSell()
+      {
+        IProductService productService = new ProductManager(new CentralBankServiceAdapter());
+        productService.Sell(
+          new Product { ProductId = 1, ProductName = "Laptop", ProductPrice = 1000 },
+          new Customer() { Id = 1, Name = "Kerem" }
+        );
+      }
+
+      public static void StudentSell()
+      {
+        IProductService productService = new ProductManager(new IsBankServiceAdapter());
+        productService.Sell(
+          new Product { ProductId = 1, ProductName = "Laptop", ProductPrice = 1000 },
+          new Student() { Id = 1, Name = "Nesil" }
+        );
+      }
+      public static void OfficerSell()
+      {
+        IProductService productService = new ProductManager(new FakeBankService());
+        productService.Sell(
+          new Product { ProductId = 1, ProductName = "Laptop", ProductPrice = 1000 },
+          new Officer() { Id = 1, Name = "Engin" }
+        );
+      }
+  }
 }
