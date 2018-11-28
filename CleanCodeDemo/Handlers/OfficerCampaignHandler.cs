@@ -1,4 +1,7 @@
-﻿namespace CleanCodeDemo
+﻿using CleanCodeDemo.Entities;
+using CleanCodeDemo.Interfaces;
+
+namespace CleanCodeDemo.Handlers
 {
   public class OfficerCampaignHandler : IPersonCampaignHandler
   {

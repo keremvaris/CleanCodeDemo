@@ -1,6 +1,7 @@
-﻿using System;
+﻿using CleanCodeDemo.Handlers;
+using CleanCodeDemo.Interfaces;
 
-namespace CleanCodeDemo
+namespace CleanCodeDemo.Entities
 {
   public class Customer : IEntity, IPerson
   {

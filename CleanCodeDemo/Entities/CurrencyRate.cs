@@ -1,4 +1,6 @@
-﻿namespace CleanCodeDemo
+﻿using CleanCodeDemo.Interfaces;
+
+namespace CleanCodeDemo.Entities
 {
   public class CurrencyRate:IEntity
   {

@@ -1,6 +1,8 @@
 ﻿using System;
+using CleanCodeDemo.Entities;
+using CleanCodeDemo.Interfaces;
 
-namespace CleanCodeDemo
+namespace CleanCodeDemo.Business
 {
   public class ProductManager : IProductService
     {

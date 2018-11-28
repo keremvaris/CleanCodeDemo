@@ -1,4 +1,4 @@
-﻿namespace CleanCodeDemo
+﻿namespace CleanCodeDemo.Interfaces
 {
     public interface IPerson
     {
