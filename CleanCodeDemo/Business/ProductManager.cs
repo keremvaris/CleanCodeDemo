@@ -23,7 +23,7 @@ namespace CleanCodeDemo.Business
             Console.WriteLine("Ürünün Döviz Karşılığı:" + exchangePrice.ToString("#.##"));
           Console.WriteLine("#####################################################");
         }
-      public static void CustomerSell()
+      internal static void CustomerSell()
       {
         IProductService productService = new ProductManager(new CentralBankServiceAdapter());
         productService.Sell(
@@ -32,7 +32,7 @@ namespace CleanCodeDemo.Business
         );
       }
 
-      public static void StudentSell()
+      internal static void StudentSell()
       {
         IProductService productService = new ProductManager(new IsBankServiceAdapter());
         productService.Sell(
@@ -40,7 +40,7 @@ namespace CleanCodeDemo.Business
           new Student() { Id = 1, Name = "Nesil" }
         );
       }
-      public static void OfficerSell()
+      internal static void OfficerSell()
       {
         IProductService productService = new ProductManager(new FakeBankService());
         productService.Sell(
