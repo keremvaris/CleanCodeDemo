@@ -18,8 +18,5 @@ namespace CleanCodeDemo
       OfficerSell();
       Console.ReadLine();
     }
-
-   
-    
   }
 }
